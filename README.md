@@ -13,3 +13,12 @@ Lista po tych przekształceniach powinna wyglądać tak: [0, 1, 2, 4, 6, 7, ‘8
 ## Zadanie po module 2
 Napisz skrypt, przefiltruje plik ffuf.out i zostawi jedynie ściezki z rozszerzeniem .php, w których nazwie pliku (nie folderu) znajduje się słowo “admin” lub “user”
 
+## Zadanie po module 3
+Znajdź otwarte API czegoś, co cię interesuje np. sportu lub strony z ocenami filmów.
+
+Możesz znaleźć takie API tutaj: https://github.com/public-apis/public-apis.
+Stwórz skrypt, który pobiera z tego API interesujące Cię dane i przetwarza je w jakiś sposób.
+Skrypt musi wykonywać przynajmniej dwa zapytania do API i zawierać minimum jedną pętlę lub instrukcję if.
+Przykład: najczęściej wygrywający kierowca formuły 1 w ciągu ostatnich dwóch sezonów.
+
+
