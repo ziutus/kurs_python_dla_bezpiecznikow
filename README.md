@@ -11,4 +11,5 @@ Stwórz skrypt, który:
 Lista po tych przekształceniach powinna wyglądać tak: [0, 1, 2, 4, 6, 7, ‘8’, ‘9’]
 
 ## Zadanie po module 2
+Napisz skrypt, przefiltruje plik ffuf.out i zostawi jedynie ściezki z rozszerzeniem .php, w których nazwie pliku (nie folderu) znajduje się słowo “admin” lub “user”
 
