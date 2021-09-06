@@ -21,4 +21,11 @@ Stwórz skrypt, który pobiera z tego API interesujące Cię dane i przetwarza j
 Skrypt musi wykonywać przynajmniej dwa zapytania do API i zawierać minimum jedną pętlę lub instrukcję if.
 Przykład: najczęściej wygrywający kierowca formuły 1 w ciągu ostatnich dwóch sezonów.
 
+## Zadanie po module 5
 
+Stwórz skrypt, który:
+1. Pobiera od użytkownika 1 argument wymagany i 1 opcjonalny (argparse)
+2. Tworzy słownik z tych danych oraz bezpiecznego sekretu, a następnie zamienia go na stringa (secrets, json)
+3. Tworzy skrót SHA256 danych (hashlib)
+4. Koduje całość base64
+5. Kopiuje zawartość do schowka (pyperclip)
