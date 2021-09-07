@@ -1,5 +1,11 @@
 import re
 
+def is_admin_user_file(filepath):
+    if re.search('\/[^/]*admin[^/]*.php$|\/[^/]*user[^/]*.php$', filepath):
+        return True
+    return False
+
+
 if __name__ == '__main__':
     with open('ffuf.log', 'r') as infile:
         logs = infile.read()
@@ -10,5 +16,5 @@ if __name__ == '__main__':
 
         path = log_split[0]
 
-        if re.search('\/[^/]*admin.php$|\/[^/]*user.php$', path) and not re.search('.*admin.*\/|.*user.*\/', path):
+        if is_admin_user_file(path):
             print(path)
