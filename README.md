@@ -21,6 +21,12 @@ Stwórz skrypt, który pobiera z tego API interesujące Cię dane i przetwarza j
 Skrypt musi wykonywać przynajmniej dwa zapytania do API i zawierać minimum jedną pętlę lub instrukcję if.
 Przykład: najczęściej wygrywający kierowca formuły 1 w ciągu ostatnich dwóch sezonów.
 
+## Zadanie po module 4
+Dodaj do serwera podstawową możliwość rejestracji. Wystarczy login i hasło – nie musisz (ale możesz) narzucać polityki haseł, długości loginu, itp.
+W tym celu musisz:
+1. Dodać nowy kontroler, który pobierze dane od użytkownika i zapisze je w bazie.
+2. Dodać nowy formularz, który będzie przesyłał dane do tego widoku.
+
 ## Zadanie po module 5
 
 Stwórz skrypt, który:
